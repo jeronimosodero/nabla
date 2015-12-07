@@ -12,3 +12,34 @@
 .icon-block .material-icons {
 	font-size: inherit;
 }
+.card img{
+	width: 100px;
+	height: 100px;
+	-webkit-clip-path: polygon(0 0, 49% 100%, 100% 0);
+	clip-path: polygon(0 0, 50% 100%, 100% 0);
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.card{
+	margin: 10px;
+	padding: 10px;
+}
+
+.empresa{
+	background: #4db6ac;
+	color:#004d40;
+}
+
+#index-banner{
+	background: #80cbc4;
+	color: #004d40;
+}
+
+.divider{
+	height: 2px;
+	background: #e0f2f1;
+	margin-right: 20%;
+	margin-left: 20%;
+}
