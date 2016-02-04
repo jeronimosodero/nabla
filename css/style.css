@@ -6,12 +6,34 @@
  * Made By MaterializeCSS.com
  */
 
+/*Made by Paslo*/
+
+#banner{
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-position:center;
+	height: 400px;
+}
+
+#contact p{
+	margin: 5px 0px;
+}
+
+.icons{
+	margin: 18px 0px;
+}
+
+
+/*Made by Paslo*/
+/*Made by Jero*/
 .icon-block {
   padding: 0 15px;
 }
+
 .icon-block .material-icons {
 	font-size: inherit;
 }
+
 .card img{
 	width: 100px;
 	height: 100px;
@@ -27,14 +49,9 @@
 	padding: 10px;
 }
 
-.empresa{
+#who{
 	background: #4db6ac;
 	color:#004d40;
-}
-
-#index-banner{
-	background: #80cbc4;
-	color: #004d40;
 }
 
 .divider{
