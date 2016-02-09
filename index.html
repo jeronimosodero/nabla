@@ -16,7 +16,7 @@
 		<div class="navbar-fixed">
 			<nav class="teal lighten-1" role="navigation">
 				<div class="nav-wrapper container">
-					<a id="logo-container" href="#banner" class="brand-logo">&nabla;</a>
+					<a id="logo-container" href="#banner" class="brand-logo">&nabla; | Nabla</a>
 					<ul class="right hide-on-med-and-down">
 						<li><a href="#services">Servicios</a></li>
 						<li><a href="#who">¿Quienes somos?</a></li>
@@ -147,22 +147,22 @@
 					</div>
 					<div class="col m7 push-m1 s12">
 						<div class="row">
-							<form class="col s12">
+							<form class="col s12" id="contactMail">
 								<div class="row">
 									<div class="input-field col s12">
-										<input type="text" id="name">
+										<input type="text" name="name" id="name">
 										<label for="name">Nombre</label>
 									</div>
 								</div>
 								<div class="row">
 									<div class="input-field col s12">
-										<input type="email" id="email">
+										<input type="email" name="email" id="email">
 										<label for="email">Email</label>
 									</div>
 								</div>
 								<div class="row">
 									<div class="input-field col s12">
-										<input type="text" id="phone">
+										<input type="text" name="phone" id="phone">
 										<label for="phone">Número de contacto</label>
 									</div>
 								</div>
@@ -186,5 +186,6 @@
 		<script src="js/materialize.js"></script>
 		<script src="js/init.js"></script>
 		<script src="js/imageLoader.js"></script>
+		<script src="js/emailHelpers.js"></script>
 	</body>
 </html>
