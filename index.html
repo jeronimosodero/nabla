@@ -2,6 +2,7 @@
 <html lang="en">
 	<head>
 		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+		<meta name="description" content="Empresa de desarrollo de sistemas web y moviles en Corrientes, Argentina"/>
 		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0"/>
 		<meta name="theme-color" content="#039be5">
 		<title>Nabla | Desarrollos a medida</title>
@@ -9,7 +10,7 @@
 		<link rel="icon" href="favicon.ico" type="image/x-icon">
 		<!-- CSS  -->
 		<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-		<link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+		<link href="css/materialize.min.css" type="text/css" rel="stylesheet" media="screen,projection"/>
 		<link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
 	</head>
 	<body>
@@ -73,7 +74,7 @@
 				<div class="row">
 					<div class="col s12 m4">
 						<div class="card">
-							<img src="images/calca.jpg">
+							<img lsrc="images/calca.jpg">
 							<span class="card-title">Santiago Calcagno</span>
 							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 							tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
@@ -81,7 +82,7 @@
 					</div>
 					<div class="col s12 m4">
 						<div class="card">
-							<img src="images/paulo.jpg">
+							<img lsrc="images/paulo.jpg">
 							<span class="card-title">Paulo Muchutti</span>
 							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 							tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
@@ -89,7 +90,7 @@
 					</div>
 					<div class="col s12 m4">
 						<div class="card">
-							<img src="images/juli.jpg">
+							<img lsrc="images/juli.jpg">
 							<span class="card-title">Julián Ruiz Diaz</span>
 							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 							tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
@@ -97,7 +98,7 @@
 					</div>
 					<div class="col s12 m4">
 						<div class="card">
-							<img src="images/jero.png">
+							<img lsrc="images/jero.jpg">
 							<span class="card-title">Jerónimo Sodero</span>
 							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 							tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
@@ -105,7 +106,7 @@
 					</div>
 					<div class="col s12 m4">
 						<div class="card">
-							<img class ="responsive-img" src="images/mati.jpg">
+							<img class ="responsive-img" lsrc="images/mati.jpg">
 							<span class="card-title">Matías Wajnman</span>
 							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 							tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
@@ -113,7 +114,7 @@
 					</div>
 					<div class="col s12 m4">
 						<div class="card">
-							<img src="images/nelson.jpg">
+							<img lsrc="images/nelson.jpg">
 							<span class="card-title">Nelson Yaccuzzi</span>
 							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 							tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
@@ -150,25 +151,25 @@
 							<form class="col s12" id="contactMail">
 								<div class="row">
 									<div class="input-field col s12">
-										<input type="text" name="name" id="name">
+										<input type="text" name="name" id="name" required>
 										<label for="name">Nombre</label>
 									</div>
 								</div>
 								<div class="row">
 									<div class="input-field col s12">
-										<input type="email" name="email" id="email">
+										<input type="email" name="email" id="email" required>
 										<label for="email">Email</label>
 									</div>
 								</div>
 								<div class="row">
 									<div class="input-field col s12">
-										<input type="text" name="phone" id="phone">
+										<input type="number" name="phone" id="phone" required>
 										<label for="phone">Número de contacto</label>
 									</div>
 								</div>
 								<div class="row">
 									<div class="input-field col s12">
-										<textarea name="message" id="message" cols="30" rows="10" class="materialize-textarea"></textarea>
+										<textarea name="message" id="message" cols="30" rows="10" class="materialize-textarea" required></textarea>
 										<label for="message">Mensaje</label>
 									</div>
 								</div>
@@ -182,8 +183,14 @@
 			</div>
 		</div>
 		<!--  Scripts-->
+		<script>
+		(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+			(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+			ga('create', 'UA-73589615-1', 'auto');
+			ga('send', 'pageview');
+		</script>
 		<script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-		<script src="js/materialize.js"></script>
+		<script src="js/materialize.min.js"></script>
 		<script src="js/init.js"></script>
 		<script src="js/imageLoader.js"></script>
 		<script src="js/emailHelpers.js"></script>
