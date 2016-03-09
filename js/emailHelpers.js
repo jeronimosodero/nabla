@@ -6,7 +6,9 @@ $(document).ready(function() {
 			type: 'POST',
 			data: $(this).serialize(),
 			success: function() {
-				console.log('yeah')
+				Materialize.toast('Correo enviado.', 4000);
+				$('#contactMail')[0].reset();
+				return false;
 			}
 		})
 	});

@@ -11,6 +11,9 @@
 		<!-- CSS  -->
 		<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 		<link href="css/materialize.min.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+		<link rel="stylesheet" href="masterslider/style/masterslider.css" />
+		<link rel="stylesheet" href="masterslider/style/ms-staff-style.css" />
+		<link rel="stylesheet" href="masterslider/skins/default/style.css" />
 		<link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
 	</head>
 	<body>
@@ -31,13 +34,19 @@
 			</nav>
 		</div>
 		<div class="section no-pad-bot" id="banner">
-			<div class="container">
-				<br><br>
-				<h1 class="header center">Nabla</h1>
-				<div class="row center">
-					<h4 class="header col s12 light white-text">Una empresa de desarrollo a medida</h4>
+			<div class="master-slider ms-skin-default" id="mSlider">
+				<div class="ms-slide" data-fill-mode="fill" data-delay="7">
+					<img src="masterslider/style/blank.gif" data-src='images/banner2.jpg' alt="">
+					<div class="ms-layer ms-caption" style="left: 570px;top: 89px;" data-type="text" data-effect="rotatefront(-40,900,tr)" data-duration="1800" data-delay="0">
+						<h3>Nabla</h3>
+					</div>
 				</div>
-				<br><br>
+				<div class="ms-slide" data-fill-mode="fill" data-delay="7">
+					<img src="masterslider/style/blank.gif" data-src='images/banner1.jpg' alt="">
+				</div>
+				<div class="ms-slide" data-fill-mode="fill" data-delay="7">
+					<img src="masterslider/style/blank.gif" data-src='images/banner3.jpg' alt="">
+				</div>
 			</div>
 		</div>
 		<div class="section no-pad-bot" id="services">
@@ -70,56 +79,88 @@
 		<div class="section no-pad-bot" id="who">
 			<div class="container">
 				<h3 class="center">El Equipo</h3>
-				<div class="divider"></div>
-				<div class="row">
-					<div class="col s12 m4">
-						<div class="card">
-							<img lsrc="images/calca.jpg">
-							<span class="card-title">Santiago Calcagno</span>
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-							tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
+				<div class="ms-staff-carousel ms-round">
+					<div class="master-slider" id="staffSlider">
+						<div class="ms-slide">
+							<img src="masterslider/style/blank.gif" data-src="images/paulo.jpg" alt="lorem ipsum dolor sit"/> 
+							<div class="ms-info">
+								<h3>Paulo Muchutti</h3>
+								<h4>COMPANY CEO</h4>
+								<p class="email">E-Mail: <a class="blue-text text-darken-4" href="#">paslo22@gmail.com</a></p>
+								<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt.</p>
+								<ul class="ms-socials">
+									<li class="ms-ico-fb"><a target="_blank" href="https://www.facebook.com/PauloMuchutti">Facebook</a></li>
+									<li class="ms-ico-tw"><a target="_blank" href="https://twitter.com/Paslo22">Twitter</a></li>
+								</ul>
+							</div>    
+						</div>
+						<div class="ms-slide">
+							<img src="masterslider/style/blank.gif" data-src="images/jero.jpg" alt="lorem ipsum dolor sit"/> 
+							<div class="ms-info">
+								<h3>Jeronimo Sodero</h3>
+								<h4>COMPANY CEO</h4>
+								<p class="email">E-Mail: <a class="blue-text text-darken-4" href="#">paslo22@gmail.com</a></p>
+								<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt.</p>
+								<ul class="ms-socials">
+									<li class="ms-ico-fb"><a target="_blank"  href="https://www.facebook.com/jeromo">facebook</a></li>
+									<li class="ms-ico-tw"><a target="_blank" href="https://twitter.com/soderojeronimo">twitter</a></li>
+								</ul>
+							</div>    
+						</div>
+						<div class="ms-slide">
+							<img src="masterslider/style/blank.gif" data-src="images/juli.jpg" alt="lorem ipsum dolor sit"/> 
+							<div class="ms-info">
+								<h3>Juli&aacute;n Ruiz Diaz</h3>
+								<h4>COMPANY CEO</h4>
+								<p class="email">E-Mail: <a class="blue-text text-darken-4" href="#">paslo22@gmail.com</a></p>
+								<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt.</p>
+								<ul class="ms-socials">
+									<li class="ms-ico-fb"><a target="_blank" href="https://www.facebook.com/julian.ruizdiaz">facebook</a></li>
+									<li class="ms-ico-tw"><a target="_blank" href="https://twitter.com/JulianRD5">twitter</a></li>
+								</ul>
+							</div>    
+						</div>
+						<div class="ms-slide">
+							<img src="masterslider/style/blank.gif" data-src="images/nestor.jpg" alt="lorem ipsum dolor sit"/> 
+							<div class="ms-info">
+								<h3>Nelson Yacuzzi</h3>
+								<h4>COMPANY CEO</h4>
+								<p class="email">E-Mail: <a class="blue-text text-darken-4" href="#">paslo22@gmail.com</a></p>
+								<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt.</p>
+								<ul class="ms-socials">
+									<li class="ms-ico-fb"><a target="_blank" href="https://www.facebook.com/nelsonyaccuzzi">facebook</a></li>
+									<li class="ms-ico-tw"><a target="_blank" href="https://twitter.com/nelsonyaccuzzi">twitter</a></li>
+								</ul>
+							</div>    
+						</div>
+						<div class="ms-slide">
+							<img src="masterslider/style/blank.gif" data-src="images/calca.jpg" alt="lorem ipsum dolor sit"/>    
+							  <div class="ms-info">
+								<h3>Santiago Calcagno</h3>
+								<h4>PROGRAMMER</h4>
+								<p class="email">E-Mail: <a class="blue-text text-darken-4" href="#">amyclayton@teleor.us</a></p>
+								<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt.</p>
+								<ul class="ms-socials">
+									<li class="ms-ico-fb"><a target="_blank" href="https://www.facebook.com/santiago.calcagno.31">facebook</a></li>
+									<li class="ms-ico-tw"><a target="_blank" href="https://twitter.com/santicalcagno_">twitter</a></li>
+								</ul>
+							</div>
+						</div>
+						<div class="ms-slide">
+							<img src="masterslider/style/blank.gif" data-src="images/mati.jpg" alt="lorem ipsum dolor sit"/>    
+							  <div class="ms-info">
+								<h3>Mat&iacute;as Wajnman</h3>
+								<h4>PROGRAMMER</h4>
+								<p class="email">E-Mail: <a class="blue-text text-darken-4" href="#">amyclayton@teleor.us</a></p>
+								<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt.</p>
+								<ul class="ms-socials">
+									<li class="ms-ico-fb"><a target="_blank" href="https://www.facebook.com/MatiasAW">facebook</a></li>
+									<li class="ms-ico-tw"><a target="_blank" href="https://twitter.com/matiasaw">twitter</a></li>
+								</ul>
+							</div>
 						</div>
 					</div>
-					<div class="col s12 m4">
-						<div class="card">
-							<img lsrc="images/paulo.jpg">
-							<span class="card-title">Paulo Muchutti</span>
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-							tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
-						</div>
-					</div>
-					<div class="col s12 m4">
-						<div class="card">
-							<img lsrc="images/juli.jpg">
-							<span class="card-title">Julián Ruiz Diaz</span>
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-							tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
-						</div>
-					</div>
-					<div class="col s12 m4">
-						<div class="card">
-							<img lsrc="images/jero.jpg">
-							<span class="card-title">Jerónimo Sodero</span>
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-							tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
-						</div>
-					</div>
-					<div class="col s12 m4">
-						<div class="card">
-							<img class ="responsive-img" lsrc="images/mati.jpg">
-							<span class="card-title">Matías Wajnman</span>
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-							tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
-						</div>
-					</div>
-					<div class="col s12 m4">
-						<div class="card">
-							<img lsrc="images/nelson.jpg">
-							<span class="card-title">Nelson Yaccuzzi</span>
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-							tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
-						</div>
-					</div>
+					<div class="ms-staff-info" id="staff-info"> </div>
 				</div>
 			</div>
 		</div>
@@ -189,8 +230,10 @@
 			ga('create', 'UA-73589615-1', 'auto');
 			ga('send', 'pageview');
 		</script>
-		<script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+		<script src="js/jquery-2.1.1.min.js"></script>
 		<script src="js/materialize.min.js"></script>
+		<script src="masterslider/masterslider.min.js"></script>
+		<script src="masterslider/jquery.easing.min.js"></script>
 		<script src="js/init.js"></script>
 		<script src="js/imageLoader.js"></script>
 		<script src="js/emailHelpers.js"></script>
