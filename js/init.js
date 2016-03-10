@@ -7,7 +7,7 @@ $(document).ready(function() {
 	}();
 
 	$('#mSlider').masterslider({
-		autoplay: true,
+		//autoplay: true,
 		height: 400,
 		layout: "autofill",
 		loop:true,
