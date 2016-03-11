@@ -7,7 +7,6 @@
  */
 
 /*Made by Paslo*/
-
 #banner{
 	background-repeat:no-repeat;
 	background-size:cover;
@@ -22,6 +21,11 @@
 
 .icons{
 	margin: 18px 0px;
+}
+
+.networkIcon{
+	height: 170px;
+	width: 170px;
 }
 
 
