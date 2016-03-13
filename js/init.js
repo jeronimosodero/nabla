@@ -11,6 +11,7 @@ $(document).ready(function() {
 		height: 400,
 		layout: "autofill",
 		loop:true,
+		overPause: false,
 		width: 1400,
 		controls:{
 			arrows: {},
